@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeff Lowe's Personal Site</title>
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div id="navbar" class="nav">
+            <p>Jeff Lowe</p>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#my-story">My Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+
+        <header class="home">
+            <div class="homeContainer">
+                <h1> Hi, my name is Jeff Lowe</h1>
+                <h4 >Hire me to save your zoo!</h4   >
+            </div>
+        </header>
+        
+        <main>
+            <section id="work" class="project">
+                <h3>Work</h3>
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/87152019-2817598071621564-3394926276006379520-o-1585150678.jpg" alt="Placeholder image">
+                <h4>Exotic Animal Park</h4>
+                <p>The park is situated on 16 acres (6.5 ha) and began as a shelter for endangered and exotic species of animals. The park has been home to over 50 species of animals and 200 big cats, such as tigers, lions, puma, ligers and tigons.</p>
+            </section>
+
+            <section class="project">
+                <img src="https://i.cbc.ca/1.4736474.1530888745!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/amur-tiger-cubs-magnetic-hill-zoo-outdoor-exhibit.jpg" alt="Placeholder image">
+                <h4>The New Big Cat Park</h4>
+                <p>The park is situated on 16 acres (6.5 ha) and began as a shelter for endangered and exotic species of animals. The park has been home to over 50 species of animals and 200 big cats, such as tigers, lions, puma, ligers and tigons.</p>
+            </section>
+
+            
+            <section id="testimonials" class="testimonials">
+                <h3>Testimonials</h3>
+                <div class="testimonialsContainer"> 
+                    <div class="testimonial">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni rem dolore fuga autem mollitia dolor excepturi blanditiis cupiditate. Rerum explicabo accusantium in. Culpa officiis saepe assumenda suscipit, soluta nihil est!</p>
+                        <img src="https://ak.picdn.net/shutterstock/videos/15662245/thumb/1.jpg" alt="Placeholder image">
+                    </div>
+                    <div class="testimonial">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRx3WOqNUU3j6YDs3Sa3CPA8ZP59yYIk4vknnDQ4kq56hFvTldp&usqp=CAU" alt="Placeholder image">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni rem dolore fuga autem mollitia dolor excepturi blanditiis cupiditate. Rerum explicabo accusantium in. Culpa officiis saepe assumenda suscipit, soluta nihil est!</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="my-story" class="myStory">
+                <h3>My Story</h3>
+                <div class="storyContainer">
+                    <p>Jeff Lowe was a famed American alpinist from Ogden, Utah who was known for his visionary climbs and first ascents established in the US and Canadian Rockies, Alps and Himalayas. He was a proponent of the “Alpine style” philosophy of climbing, where small teams travel fast with minimal gear.</p>
+                    <img src="https://media.distractify.com/brand-img/t9W1H83Wb/480x252/jeff-lowe-nanny-1585595078094.jpg" alt="Placeholder image">
+                </div>
+            </section>
+
+            <!--Section: Contact v.2-->
+            <section id="contact-me" class="mb-4 contactForm">
+
+                <!--Section heading-->
+                <h3 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h3>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. My team will come back to you within
+                    a matter of hours to help you.</p>
+
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="/submit-email" method="POST">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                            <br>
+                            <input class="btn btn-primary" type="submit" />
+                            {{!-- <a id="send" class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a> --}}
+                        </form>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+
+            </section>
+            <!--Section: Contact v.2-->
+        </main>
+
+        <footer class="page-footer">
+            <div class="flexfooter">
+            <div class="firstdiv">
+                <h2 class="smalltxt">Links</h2>
+                <ul>
+                <li class="footertxt"><a href="#work">Work</a></li>
+                <li class="footertxt"><a href="#testimonials">Testimonials</a></li>
+                <li class="footertxt"><a href="#my-story">My Story</a></li>
+                <li class="footertxt"><a href="#contact-me">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="verticalLine">
+                <div class="medialinks">
+                <h3 class="scmedia">Find me here:</h3>
+                <a href="https://twitter.com/JeffLow09986549">
+                    <img
+                    class="thumbnail socialmedia2"
+                    height="100"
+                    width="100"
+                    src="images/twittericon.png"
+                    /> </a
+                ><a href="https://www.facebook.com/jeff.lowe.3572846">
+                    <img
+                    class="thumbnail socialmedia"
+                    height="100"
+                    width="100"
+                    src="images/facebookicon.png"
+                    />
+                </a>
+                </div>
+            </div>
+            
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright">
+            © 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </body>
+</html>
