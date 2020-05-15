@@ -137,6 +137,10 @@
 }
 
 .contacted {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
     padding-top: 3em;
     text-align: center;
     margin: 0 auto;
