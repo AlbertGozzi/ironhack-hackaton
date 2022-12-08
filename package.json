@@ -4,11 +4,11 @@
   "description": "Ironhack Miami's hackton | Jeff Lowe",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "bytes": "^3.1.0",
     "content-type": "^1.0.4",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "hbs": "^4.1.1",
     "nodemailer": "^6.4.6"
   },
